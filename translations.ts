@@ -117,6 +117,9 @@ export const translations = {
       msg3: "Verified Purchase: Mint Condition Record",
       msg4: "A collector is browsing the Rarities section",
       just_now: "Just Now"
+    },
+    chat: {
+      greeting: "Greetings! 🎵 I'm SPIN, a complete music AI with all the music knowledge of the world. 🎹 Ask away about music, or our exclusive Vinyl records and products! 💿"
     }
   },
   fa: {
@@ -234,6 +237,9 @@ export const translations = {
       msg3: "خرید تایید شده: صفحه با وضعیت عالی",
       msg4: "یک کلکسیونر در حال بازدید از بخش کمیاب‌هاست",
       just_now: "همین الان"
+    },
+    chat: {
+      greeting: "درود! 🎵 من «اسپین» هستم، یک هوش مصنوعی کامل با دانش تمام موسیقی‌های جهان. 🎹 هر سوالی درباره موسیقی، یا صفحات وینیل و محصولات ما دارید بپرسید! 💿"
     }
   },
   es: {
@@ -351,6 +357,9 @@ export const translations = {
       msg3: "Compra verificada: Disco en condición impecable",
       msg4: "Un coleccionista está explorando las rarezas",
       just_now: "Justo ahora"
+    },
+    chat: {
+      greeting: "¡Saludos! 🎵 Soy SPIN, una IA musical completa con todo el conocimiento musical del mundo. 🎹 ¡Pregunta lo que quieras sobre música, o sobre nuestros discos de vinilo y productos exclusivos! 💿"
     }
   }
 };

@@ -1117,10 +1117,10 @@ const OwnerTributeSection: React.FC<{ t: (k: string) => string }> = ({ t }) => {
   );
 };
 
-const TurntableChat: React.FC<{ language: Language }> = ({ language }) => {
+const TurntableChat: React.FC<{ language: Language; t: (k: string) => string }> = ({ language, t }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<ChatMessage[]>([
-    { role: 'model', text: "Greetings! I'm Spin, your professional musical guide and historian at Tehran Records. Ask me anything about music history, genres, or check our exclusive gold vault!", timestamp: Date.now() }
+    { role: 'model', text: t('chat.greeting'), timestamp: Date.now() }
   ]);
   const [input, setInput] = useState('');
   const [isThinking, setIsThinking] = useState(false);
@@ -1580,7 +1580,7 @@ const App: React.FC = () => {
         />
       )}
       
-      <TurntableChat language={language} />
+      <TurntableChat language={language} t={t} key={language} />
     </div>
   );
 };
